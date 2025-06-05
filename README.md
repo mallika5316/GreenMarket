@@ -6,31 +6,6 @@
 
 ---
 
-## 🗂️ Project Structure
-
-greenmarket/
-├── templates/ # HTML templates for frontend
-│ ├── about.html
-│ ├── addagroproducts.html
-│ ├── agroproducts.html
-│ ├── auth.html
-│ ├── base.html
-│ ├── edit.html
-│ ├── farmer.html
-│ ├── farmerdetails.html
-│ ├── farming.html
-│ ├── index.html
-│ ├── login.html
-│ ├── signup.html
-│ └── triggers.html
-├── farmers.sql # SQL schema for farmer and product tables
-├── jd.py # Job Description or helper logic
-├── main.py # Main Flask application entry point
-└── README.md
-
-
-
----
 
 ## 🚀 Getting Started
 
@@ -43,21 +18,15 @@ greenmarket/
 
 ### ▶️ Run Locally
 
-1. Clone the repo:
-   ```bash
+## 1. Clone the repo:
+   
    git clone https://github.com/your-username/greenmarket.git
    cd greenmarket
-Install dependencies:
-
-bash
+## 2. Install dependencies:
 pip install flask
-Run the Flask app:
-
-bash
-python main.py
-Visit:
-http://localhost:5000
-✨ Features
+Run the Flask app: python main.py
+Visit:http://localhost:5000
+## ✨ Features
 🧑‍🌾 Farmer registration and profile management
 
 🛒 Add/View Agro Products
@@ -70,7 +39,7 @@ http://localhost:5000
 
 📄 About and Info Pages
 
-📊 Database
+## 📊 Database
 The app uses a schema defined in farmers.sql which includes tables for:
 
 Farmer Details
@@ -81,16 +50,9 @@ Authentication Records
 
 Use any SQLite or MySQL DB engine to execute the schema before running the app.
 
-💡 Future Plans
+## 💡 Future Plans
 Add payment integration
 
 Generate downloadable PDF reports for sales and suppliers
-
-Integrate AI-based crop or price prediction
-
-Multi-language support for rural accessibility
-
-🤝 Acknowledgment
-Created as part of the academic project on sustainable markets and rural digital empowerment. Special thanks to our mentors and teammates who supported this journey.
 
 
